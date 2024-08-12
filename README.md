@@ -91,9 +91,17 @@ porque ele estará insatisfeito com o produto, podendo optar por outra ferrament
 `wireframe de baixa fidelidade`
 
 (imagens)
+Para o desenvolvimento de um wireframe de baixa fidelidade foi escolhido manter a essência e a identidade visual da marca, utilizando a paleta de cores características do PicPay e mantendo o mesmo layout onde houveram acertos, mas paras as telas que foram modificadas, a interface sofreu algumas mudanças de modo que não pudesse prejudicar a experiencia do usuário realizando uma mudança drástica.
 <br>
 <br>
 <br>
 
 # ETAPA 4: DESENVOLVIMENTO 
 `programação`
+
+### Ferramentas e tecnologias utilizadas:
+
+- HTML;
+- CSS;
+- Vite;
+- React
