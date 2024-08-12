@@ -51,7 +51,7 @@ Após a coleta de dados, ficou evidente que o design anterior agradava muito os 
 # ETAPA 2: IDEAÇÃO 
 `brainstorming + método dos 5 porquês`
 
-(img)
+[Comentários](https://github.com/isiscostabb/PicPay/blob/main/Imagens/coment%C3%A1rios.png)
 
 **Por que os usuários estão insatisfeitos com a nova interface?**
 
