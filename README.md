@@ -9,6 +9,7 @@ Contando com incontáveis produtos e serviços, desde a facilidade para realizar
 fonte: [https://blog.picpay.com/historia-do-picpay/#:~:text=Você se lembra do que,aplicativo de pagamentos do País](https://blog.picpay.com/historia-do-picpay/#:~:text=Voc%C3%AA%20se%20lembra%20do%20que,aplicativo%20de%20pagamentos%20do%20Pa%C3%ADs).
 <br>
 <br>
+<br>
 
 # PREFÁCIO
 Apesar desde o primórdio o aplicativo se mostrar preocupado com a experiência do usuário, através da funcionalidade que permitia o envio de mensagens diretas, demonstrando que não era um mero app que servia apenas para efetuar pagamentos, após a recente atualização da interface no app, a experiência do usuário foi afetada, uma vez que um app que costumava ser simples e intuitivo ficou com uma interface poluída e confusa.
@@ -27,6 +28,7 @@ Para explorar mais a fundo e problema e encontrar uma solução, a metodologia e
 **Desenvolvimento:** finalização para a versão oficial.
 <br>
 <br>
+<br>
 
 # ETAPA 1: IMERSÃO 
 `desk research`
@@ -35,7 +37,8 @@ Para explorar mais a fundo e problema e encontrar uma solução, a metodologia e
 Com a recente atualização de interface do aplicativo acarretando em um descontentamento, fica evidente que a mudança não foi benéfica aos usuários, uma vez que muitas pessoas não se agradaram com o novo layout.  Tendo esse ponto em mente, o objetivo desse estudo de caso é solucionar o problema da interface do Picpay, projetando um novo layout que atenda as necessidades do usuários e assim como antigamente, a interface seja simples e intuitiva como costumava ser.
 
 ### PESQUISA
-(img)
+<img src="https://github.com/isiscostabb/PicPay/blob/main/Imagens/coment%C3%A1rios.png">
+
 Na barra de comentários do aplicativo, há alguns comentários nos quais os usuários demonstram insatisfação com as recentes atualizações de interface, e como é possível notar, esses comentários possuem muitos feedbacks de outros usuários que concordam com a reclamação trazido à tona, evidenciando que o número de usuários insatisfeitos é elevado.
 
 ### ANALISE DOS DADOS
@@ -47,11 +50,12 @@ Após a coleta de dados, ficou evidente que o design anterior agradava muito os 
 - Intuitividade.
 <br>
 <br>
+<br>
 
 # ETAPA 2: IDEAÇÃO 
 `brainstorming + método dos 5 porquês`
 
-[Comentários](https://github.com/isiscostabb/PicPay/blob/main/Imagens/coment%C3%A1rios.png)
+<img src="https://github.com/isiscostabb/PicPay/blob/main/Imagens/coment%C3%A1rios.png">
 
 **Por que os usuários estão insatisfeitos com a nova interface?**
 
