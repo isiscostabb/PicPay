@@ -27,7 +27,7 @@ Para explorar mais a fundo e problema e encontrar uma solução, a metodologia e
 **Desenvolvimento:** finalização para a versão oficial.
 <br>
 <br>
-<br>
+
 # ETAPA 1: IMERSÃO 
 `desk research`
 
@@ -82,3 +82,14 @@ porque a experiência do usuário será prejudica
 porque ele estará insatisfeito com o produto, podendo optar por outra ferramenta para atender suas necessidades de forma mais prática
 <br>
 <br>
+<br>
+# ETAPA 3: PROTOTIPAÇÃO 
+`wireframe de baixa fidelidade`
+
+(prints)
+<br>
+<br>
+<br>
+
+# ETAPA 4: DESENVOLVIMENTO 
+`programação`
