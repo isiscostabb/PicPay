@@ -1,7 +1,7 @@
 # PicPay
 Estudo de caso sobre a recente atualização da interface do aplicativo de pagamentos do PicPay
 <br>
-<br>
+
 Lançado no ano de 2012, apesar dos desafios dos anos iniciais, após 2016 o aplicativo começou a se popularizar ganhando mais atenção no mercado. Atualmente o PicPay é um dos maiores aplicativos de pagamento no Brasil, resultado da conquista de inúmeros usuários ao longo de sua trajetória.
 
 Contando com incontáveis produtos e serviços, desde a facilidade para realizar transferências via Pix, sendo o PicPay um dos pioneiros a incrementar essa possibilidade no app, um dos destaques do PicPay em seu inicio foi sua funcionalidade que permitia o usuário mandar o comprovante de pagamento por [](https://blog.picpay.com/mensagens-privadas-app-picpay/)mensagem direta. Além de também oferecer cartões, carteira digital com rendimentos CDI, possibilidade de investimentos, marktplace financeiro (com oferta de diversos produtos financeiros), o aplicativo é recheados de ferramentas pensando no usuário.
@@ -9,12 +9,12 @@ Contando com incontáveis produtos e serviços, desde a facilidade para realizar
 fonte: [https://blog.picpay.com/historia-do-picpay/#:~:text=Você se lembra do que,aplicativo de pagamentos do País](https://blog.picpay.com/historia-do-picpay/#:~:text=Voc%C3%AA%20se%20lembra%20do%20que,aplicativo%20de%20pagamentos%20do%20Pa%C3%ADs).
 <br>
 <br>
-<br>
+
 # PREFÁCIO
 Apesar desde o primórdio o aplicativo se mostrar preocupado com a experiência do usuário, através da funcionalidade que permitia o envio de mensagens diretas, demonstrando que não era um mero app que servia apenas para efetuar pagamentos, após a recente atualização da interface no app, a experiência do usuário foi afetada, uma vez que um app que costumava ser simples e intuitivo ficou com uma interface poluída e confusa.
 <br>
 <br>
-<br>
+
 # METODOLOGIA PARA ABORDAGEM DA SOLUÇÃO DO PROBLEMA
 Para explorar mais a fundo e problema e encontrar uma solução, a metodologia escolhida foi o **Design Thinking: Double Diamond**, que consiste em quatro etapas:
 
@@ -46,5 +46,39 @@ Após a coleta de dados, ficou evidente que o design anterior agradava muito os 
 - Melhor manejamento dos componentes;
 - Intuitividade.
 <br>
+<br>
+
+# ETAPA 2: IDEAÇÃO 
+`brainstorming + método dos 5 porquês`
+
+(img)
+
+**Por que os usuários estão insatisfeitos com a nova interface?**
+
+porque ela é confusa e pouco intuitiva
+<br>
+<br>
+
+**Por que ela é confusa e pouco intuitiva?**
+
+porque os componentes são grandes ocupando muito espaço na tela, as telas são parecidas entre si, dificultando a distinção de onde é o que, já que tudo é parecido
+<br>
+<br>
+
+**Por que isso é um problema?**
+
+porque o usuário vai ter dificuldade para se localizar e encontrar o que precisa de forma fácil
+<br>
+<br>
+
+**Por que é ruim para o usuário ele ter dificuldade para encontrar o que precisa?**
+
+porque a experiência do usuário será prejudica
+<br>
+<br>
+
+**Por que a experiência do usuário ser prejudica é um problema?**
+
+porque ele estará insatisfeito com o produto, podendo optar por outra ferramenta para atender suas necessidades de forma mais prática
 <br>
 <br>
