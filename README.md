@@ -1,8 +1,7 @@
-# Estudo de caso: Aplicativo PicPay
+# PicPay
 Estudo de caso sobre a recente atualização da interface do aplicativo de pagamentos do PicPay
-
-
- 
+<br>
+<br>
 Lançado no ano de 2012, apesar dos desafios dos anos iniciais, após 2016 o aplicativo começou a se popularizar ganhando mais atenção no mercado. Atualmente o PicPay é um dos maiores aplicativos de pagamento no Brasil, resultado da conquista de inúmeros usuários ao longo de sua trajetória.
 
 Contando com incontáveis produtos e serviços, desde a facilidade para realizar transferências via Pix, sendo o PicPay um dos pioneiros a incrementar essa possibilidade no app, um dos destaques do PicPay em seu inicio foi sua funcionalidade que permitia o usuário mandar o comprovante de pagamento por [](https://blog.picpay.com/mensagens-privadas-app-picpay/)mensagem direta. Além de também oferecer cartões, carteira digital com rendimentos CDI, possibilidade de investimentos, marktplace financeiro (com oferta de diversos produtos financeiros), o aplicativo é recheados de ferramentas pensando no usuário.
