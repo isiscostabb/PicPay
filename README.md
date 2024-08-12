@@ -55,7 +55,7 @@ Após a coleta de dados, ficou evidente que o design anterior agradava muito os 
 # ETAPA 2: IDEAÇÃO 
 `brainstorming + método dos 5 porquês`
 
-<img src="https://github.com/isiscostabb/PicPay/blob/main/Imagens/coment%C3%A1rios.png">
+<img src="https://github.com/isiscostabb/PicPay/blob/main/Imagens/telas.png">
 
 **Por que os usuários estão insatisfeitos com a nova interface?**
 
@@ -90,7 +90,7 @@ porque ele estará insatisfeito com o produto, podendo optar por outra ferrament
 # ETAPA 3: PROTOTIPAÇÃO 
 `wireframe de baixa fidelidade`
 
-(prints)
+(imagens)
 <br>
 <br>
 <br>
