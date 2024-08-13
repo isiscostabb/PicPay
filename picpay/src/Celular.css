@@ -1,0 +1,18 @@
+
+div.box.celular{ 
+    position: fixed;
+    width: 356px;
+    height: 95vh;
+    top: 50%;
+    border-radius: 30px;
+  }
+  
+  .celular{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 120%;
+    z-index: 1;
+  }

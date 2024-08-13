@@ -1,0 +1,12 @@
+
+.branco{
+    height: 90%;
+    width: 360px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 10px;
+    z-index: 0;
+    left: 50%;
+    transform: translate(-50%, 6%);
+}
