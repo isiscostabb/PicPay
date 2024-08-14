@@ -1,12 +1,45 @@
+:root {
+    --cor0: #efefef;
+    --cor1: #FFFFFF;
+    --cor2: #00CC65;
+    --cor3: #238662;
+    --cor4: #000000;
+  }
 
 .branco{
     height: 90%;
     width: 360px;
-    display: flex;
-    background-color: rgb(255, 255, 255);
+    display: block;
+    background-color: var(--cor1);
     position: absolute;
     border-radius: 10px;
     z-index: 0;
     left: 50%;
     transform: translate(-50%, 6%);
+}
+
+main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa.um{
+    background-color: var(--cor3);
+    width: 90%;
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+    
+    
 }

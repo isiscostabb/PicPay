@@ -1,0 +1,41 @@
+
+header {
+    height: 90px;
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 3;
+}
+
+.perfil {
+    background-color: var(--cor0);
+}
+
+.pesquisa{
+    background-color: var(--cor0);
+    width: 140px;
+    height:33px;
+    border-radius: 20px;
+    padding-left: 20px;
+    transform: translate(0, 20%);
+    display: flex;
+    align-items: center;
+}
+
+
+.chat {
+    background-color: var(--cor0);
+}
+
+
+.notificacao {
+    background-color: var(--cor0);
+}
+
+p {
+    font-family: 'font1';
+    letter-spacing: 1px;
+
+}

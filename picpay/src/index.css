@@ -4,11 +4,24 @@
   padding: 0
 }
 
+:root {
+  --cor0: #efefef;
+  --cor1: #FFFFFF;
+  --cor2: #00CC65;
+  --cor3: #238662;
+  --cor4: #000000;
+}
+
 body {
   position: relative;
-  background-color: #00CC65;
+  background-color: var(--cor2);
   height: 100%;
   width: 100%;
   overflow-y: hidden;
   overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'font1';
+  src: url(./Midia/AllegroFree.otf);
 }

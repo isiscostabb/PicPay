@@ -1,0 +1,27 @@
+
+footer {
+    height: 90px;
+    width: 100%;
+    background-color: var(--cor0);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+.circle{
+    background-color: var(--cor1);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    top: 10%;
+    position: relative;
+    cursor: pointer;
+    border: none;
+}
+
+.circle.um{
+    background-color: var(--cor3);
+}
