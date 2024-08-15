@@ -13,7 +13,7 @@ header {
     background-color: var(--cor0);
 }
 
-.pesquisa{
+input[type=text]{
     background-color: var(--cor0);
     width: 140px;
     height:33px;
@@ -22,8 +22,8 @@ header {
     transform: translate(0, 20%);
     display: flex;
     align-items: center;
+    border: none;
 }
-
 
 .chat {
     background-color: var(--cor0);

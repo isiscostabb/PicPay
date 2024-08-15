@@ -12,6 +12,16 @@
   --cor4: #000000;
 }
 
+@font-face {
+  font-family: 'font1';
+  src: url(./Midia/Nexa-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: 'font2';
+  src: url(./Midia/Nexa-Heavy.ttf);
+}
+
 body {
   position: relative;
   background-color: var(--cor2);
@@ -21,7 +31,14 @@ body {
   overflow-x: hidden;
 }
 
-@font-face {
+p {
   font-family: 'font1';
-  src: url(./Midia/AllegroFree.otf);
+}
+
+h1 {
+  font-family: 'font2';
+}
+
+h2 {
+  font-family: 'font2';
 }
