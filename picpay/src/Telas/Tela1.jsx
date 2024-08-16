@@ -34,6 +34,18 @@ function Tela1() {
                         </div>
                     </div>
 
+                    <div className='container tres'>
+                    <h2 className='txt ctres'>Pro dia a dia</h2>
+                        <div className='caixa tres'>
+                            <div className='grupo blocos'>
+                                <div className='bloco'> </div>
+                                <div className='bloco'> </div>
+                                <div className='bloco'> </div>
+                                <div className='bloco'> </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </main>
                 <Footer/>
             </div>
