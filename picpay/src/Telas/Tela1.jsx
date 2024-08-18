@@ -3,6 +3,8 @@ import './Tela1.css'
 import Footer from '../Footer + Header/Footer'
 import Header from '../Footer + Header/Header'
 
+import Fileira from './componentes/Fileira'
+
 
 function Tela1() {
 
@@ -12,8 +14,8 @@ function Tela1() {
                 <Header/>
                 <main>
 
-                    <div className='container um'>
-                        <div className='caixa um'>
+                    <div className='saldo'>
+                        <div className='conteiner um'>
                             <div className='texto'>
                                 <h2 className='tela1'>Saldo em conta</h2>
                                 <h2 className='tela1'>R$ 130,00</h2>
@@ -25,27 +27,22 @@ function Tela1() {
                         </div>
                     </div>
 
-                    <div className='container dois'>
-                        <div className='caixa dois'>
+                    <div className='pagamentos'>
+                        <div className='conteiner dois'>
                             <h2 className='tela1'>PAGAR COM PIX</h2>
                         </div>
-                        <div className='caixa dois'>
+                        <div className='conteiner dois'>
                             <h2 className='tela1'>PAGAR BOLETO</h2>
                         </div>
                     </div>
 
-                    <div className='container tres'>
-                    <h2 className='txt ctres'>Pro dia a dia</h2>
-                        <div className='caixa tres'>
-                            <div className='grupo blocos'>
-                                <div className='bloco'> </div>
-                                <div className='bloco'> </div>
-                                <div className='bloco'> </div>
-                                <div className='bloco'> </div>
-                            </div>
-                        </div>
-                    </div>
+                    <Fileira titulo='Pro dia a dia'/>
 
+                    <Fileira titulo='Sugestões'/>
+
+                    <Fileira titulo='Soluções para você' cor='var(--cor3)' altura='180px' largura='270px' alturaTotal='300px'/>
+
+                    <br/> <br/> <br/>
                 </main>
                 <Footer/>
             </div>

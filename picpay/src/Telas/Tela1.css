@@ -9,7 +9,8 @@
 .branco{
     height:89%;
     width: 360px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: var(--cor1);
     position: relative;
     border-radius: 30px 30px 70px 70px;
@@ -24,9 +25,10 @@ main{
     display: flex;
     position: relative;
     flex-direction: column;
+    overflow-y: scroll;
 }
 
-.container.um{
+.saldo{
     width: 100%;
     height: 220px;
     position: relative;
@@ -36,7 +38,7 @@ main{
     flex-direction: column;
 }
 
-.caixa.um{
+.conteiner.um{
     background-color: var(--cor3);
     width: 90%;
     height: 200px;
@@ -79,9 +81,9 @@ p.tela1 {
     font-size: 10px;
 }
 
-.container.dois{
+.pagamentos{
     width: 100%;
-    height: 150px;
+    height: 170px;
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -89,7 +91,7 @@ p.tela1 {
     flex-direction: column;
 }
 
-.caixa.dois{
+.conteiner.dois{
     background-color: var(--cor3);
     width: 90%;
     height: 55px;
@@ -98,47 +100,5 @@ p.tela1 {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-}
-
-.container.tres{
-    width: 100%;
-    height: 140px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.caixa.tres{
-    width: 90%;
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow-x: hidden; /* aqui */
-}
-
-.grupo.blocos{
-    background-color: var(--cor1);
-    width: 1000px;
-    height: 100%;
-    display: flex;
-    position: relative;
-}
-
-div.bloco{
-    background-color: var(--cor0);
-    width: 120px;
-    height: 75px;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-right: 20px;
-    position: relative;
-    cursor: pointer;
-}
-
-.txt.ctres{
-    position: relative;
-    right: 90px;
+    margin-top: 15px;
 }
