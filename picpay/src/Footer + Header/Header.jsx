@@ -1,14 +1,14 @@
 import './Header.css'
 
-function Header() {
+function Header({cor, margem, borda, opacidade}) {
 
     return(
         <>
-            <header>
-                <button className='circle perfil'></button>
-                <input type="text" name="pesquisa" id="pesquisa" placeholder='Buscar'/>
-                <button className='circle chat'></button>
-                <button className='circle notificacao'></button>
+            <header style={{backgroundColor: cor, marginBottom: margem, borderRadius: borda}}>
+                <button className='circle perfil' style={{opacity: opacidade}}></button>
+                <input type="text" name="pesquisa" id="pesquisa" placeholder='Buscar' style={{opacity: opacidade}}/>
+                <button className='circle chat' style={{opacity: opacidade}}></button>
+                <button className='circle notificacao' style={{opacity: opacidade}}></button>
             </header>
         </>
     )}
