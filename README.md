@@ -1,5 +1,5 @@
 # Estudo de caso do aplicativo mobile da PicPay
-Estudo de caso sobre a recente atualização da interface do aplicativo de pagamentos do PicPay
+Estudo de caso sobre a recente atualização da interface do aplicativo de pagamentos PicPay
 <br>
 
 Lançado no ano de 2012, apesar dos desafios dos anos iniciais, após 2016 o aplicativo começou a se popularizar ganhando mais atenção no mercado. Atualmente o PicPay é um dos maiores aplicativos de pagamento no Brasil, resultado da conquista de inúmeros usuários ao longo de sua trajetória.
