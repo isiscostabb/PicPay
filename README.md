@@ -1,5 +1,5 @@
-# PicPay
-Estudo de caso sobre a recente atualização da interface do aplicativo de pagamentos do PicPay
+# Estudo de caso do aplicativo mobile da PicPay
+Estudo de caso sobre a recente atualização da interface do aplicativo de pagamentos PicPay
 <br>
 
 Lançado no ano de 2012, apesar dos desafios dos anos iniciais, após 2016 o aplicativo começou a se popularizar ganhando mais atenção no mercado. Atualmente o PicPay é um dos maiores aplicativos de pagamento no Brasil, resultado da conquista de inúmeros usuários ao longo de sua trajetória.
@@ -91,7 +91,7 @@ porque ele estará insatisfeito com o produto, podendo optar por outra ferrament
 `wireframe de baixa fidelidade`
 
 (imagens)
-Para o desenvolvimento de um wireframe de baixa fidelidade foi escolhido manter a essência e a identidade visual da marca, utilizando a paleta de cores características do PicPay e mantendo o mesmo layout onde houveram acertos, mas paras as telas que foram modificadas, a interface sofreu algumas mudanças de modo que não pudesse prejudicar a experiencia do usuário realizando uma mudança drástica.
+Para o desenvolvimento de um wireframe de baixa fidelidade foi escolhido manter a essência e a identidade visual da marca, utilizando a paleta de cores características do PicPay e mantendo o mesmo layout onde houveram acertos, mas para as telas que foram modificadas, a interface sofreu algumas mudanças de modo que não pudesse prejudicar a experiencia do usuário realizando uma mudança drástica.
 <br>
 <br>
 <br>
@@ -103,5 +103,6 @@ Para o desenvolvimento de um wireframe de baixa fidelidade foi escolhido manter 
 
 - HTML;
 - CSS;
-- Vite;
-- React
+- JavaScript;
+- React;
+- Vite.
