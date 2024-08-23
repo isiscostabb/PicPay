@@ -4,6 +4,7 @@ import Footer from '../Footer + Header/Footer'
 import Header from '../Footer + Header/Header'
 
 import Fileira from './componentes/Fileira'
+import Conteiner from './componentes/Conteiner'
 
 
 function Tela1() {
@@ -14,8 +15,8 @@ function Tela1() {
                 <Header/>
                 <main>
 
-                    <div className='saldo'>
-                        <div className='conteiner um'>
+                    <Conteiner altura='220px'>
+                        <div className='saldo'>
                             <div className='texto'>
                                 <h2 className='tela1'>Saldo em conta</h2>
                                 <h2 className='tela1'>R$ 130,00</h2>
@@ -25,16 +26,16 @@ function Tela1() {
                                 <p>VER EXTRATO</p>
                             </button>
                         </div>
-                    </div>
+                    </Conteiner>
 
-                    <div className='pagamentos'>
-                        <div className='conteiner dois'>
+                    <Conteiner altura='170px'>
+                        <div className='pagamentos'>
                             <h2 className='tela1'>PAGAR COM PIX</h2>
                         </div>
-                        <div className='conteiner dois'>
+                        <div className='pagamentos'>
                             <h2 className='tela1'>PAGAR BOLETO</h2>
                         </div>
-                    </div>
+                    </Conteiner>
 
                     <Fileira titulo='Pro dia a dia'/>
 

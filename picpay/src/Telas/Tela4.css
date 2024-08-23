@@ -1,0 +1,39 @@
+
+:root {
+    --cor0: #efefef;
+    --cor1: #FFFFFF;
+    --cor2: #00CC65;
+    --cor3: #238662;
+    --cor4: #000000;
+  }
+  
+.head{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 75%;
+}
+
+.busca{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.pesquisa{
+    position: relative;
+    background-color: var(--cor0);   
+    width: 80%;
+    border-radius: 20px;
+}
+
+.pedidos{
+    position: relative;
+    background-color: var(--cor3);
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+}

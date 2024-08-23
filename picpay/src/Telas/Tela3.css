@@ -1,0 +1,30 @@
+
+.branco{
+    height:89%;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor1);
+    position: relative;
+    border-radius: 30px 30px 70px 70px;
+    z-index: 0;
+    left: 50%;
+    transform: translate(-50%, 7%);
+}
+
+main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    overflow-y: scroll; /* */
+}
+
+.movimentacao{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+}

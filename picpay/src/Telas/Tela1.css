@@ -22,16 +22,6 @@ main{
 }
 
 .saldo{
-    width: 100%;
-    height: 220px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.conteiner.um{
     background-color: var(--cor3);
     width: 90%;
     height: 200px;
@@ -75,16 +65,6 @@ p.tela1 {
 }
 
 .pagamentos{
-    width: 100%;
-    height: 170px;
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-
-.conteiner.dois{
     background-color: var(--cor3);
     width: 90%;
     height: 55px;
