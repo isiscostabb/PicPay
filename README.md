@@ -1,4 +1,4 @@
-# Estudo de caso do aplicativo mobile da PicPay
+# Estudo de caso do aplicativo mobile do PicPay
 Estudo de caso sobre a recente atualização da interface do aplicativo de pagamentos PicPay
 <br>
 
