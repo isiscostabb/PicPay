@@ -34,10 +34,15 @@ function Tela3() {
                                 <Movimentacao categoria='INTERNET' lugar='Provedora XXX' valor='R$ 50,00'/>
                                 <Movimentacao categoria='COMIDA' lugar='Lanchonete XXX' valor='R$16,50'/>
                                 <Movimentacao categoria='COMPRA' lugar='Loja XXX' valor='R$ 1700,00'/>
+
+                                <br/>
+                                <br/>
+
                             </DataMov>
 
                         </div>
                     </Conteiner>
+                    
           
                 </main>
                 <Footer/>
