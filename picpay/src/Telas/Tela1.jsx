@@ -37,11 +37,11 @@ function Tela1() {
                         </div>
                     </Conteiner>
 
-                    <Fileira titulo='Pro dia a dia'/>
+                    <Fileira titulo='Pro dia a dia' quantidade={4}/>
 
-                    <Fileira titulo='Sugestões'/>
+                    <Fileira titulo='Sugestões' quantidade={4}/>
 
-                    <Fileira titulo='Soluções para você' cor='var(--cor3)' altura='180px' largura='270px' alturaTotal='300px'/>
+                    <Fileira titulo='Soluções para você' cor='var(--cor3)' altura='180px' largura='270px' alturaTotal='300px' quantidade={2}/>
 
                     <br/> <br/> <br/>
                 </main>

@@ -17,9 +17,9 @@ function Tela3() {
                 <Header/>
                 <main>
 
-                    <Fileira titulo='Meus cartões' cor='var(--cor4)' altura='200px' largura='300px' alturaTotal='270px'/>
+                    <Fileira titulo='Meus cartões' cor='var(--cor4)' altura='200px' largura='300px' alturaTotal='270px' quantidade={2}/>
                     
-                    <Fileira titulo='Serviços'/>
+                    <Fileira titulo='Serviços' quantidade={4}/>
 
                     <Conteiner altura='200px'>
                         <div className='movimentacao'> 

@@ -23,12 +23,12 @@ function Tela4() {
 
                 <main>
                 
-                    <Fileira cor='var(--cor2)' altura='100px' largura='280px' alturaTotal='140px'/>
-                    <Fileira alturaTotal='110px'/>
-                    <Fileira alturaTotal='110px'/>
-                    <Fileira titulo="Ofertas com Cashback" cor='var(--cor2)' largura='250px'/>
-                    <Fileira titulo="Produtos" altura='300px' largura='280px' alturaTotal='400px'/>
-                    <Fileira titulo="Gift Card"/>
+                    <Fileira cor='var(--cor2)' altura='100px' largura='280px' alturaTotal='140px' quantidade={2}/>
+                    <Fileira alturaTotal='110px' quantidade={4}/>
+                    <Fileira alturaTotal='110px' quantidade={4}/>
+                    <Fileira titulo="Ofertas com Cashback" cor='var(--cor2)' largura='250px' quantidade={2}/>
+                    <Fileira titulo="Produtos" altura='300px' largura='280px' alturaTotal='400px' quantidade={2}/>
+                    <Fileira titulo="Gift Card" quantidade={4}/>
 
                     <br/>
                     <br/>

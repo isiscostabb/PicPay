@@ -1,7 +1,12 @@
 
 import './Fileira.css'
 
-function Fileira({titulo, cor, altura, largura, alturaTotal, direcao}) {
+function Fileira({titulo, cor, altura, largura, alturaTotal, direcao, quantidade}) {
+
+    // gerar array quantidade de blocos
+    const blocos = Array.from({ length: quantidade }, (_, index) => (
+        <div key={index} className='bloco' style={{backgroundColor: cor, height: altura, width: largura}}> </div>
+    ));
 
     return(
         <>
@@ -9,11 +14,8 @@ function Fileira({titulo, cor, altura, largura, alturaTotal, direcao}) {
             <h2 className='txt_fileira'>{titulo}</h2>
                 <div className='container tres'> 
                     <div className='grupo blocos' style={{flexDirection: direcao}}>
-                        <div className='bloco' style={{backgroundColor: cor, height: altura, width: largura}}> </div>
-                        <div className='bloco' style={{backgroundColor: cor, height: altura, width: largura}}> </div>
-                        <div className='bloco' style={{backgroundColor: cor, height: altura, width: largura}}> </div>
-                        <div className='bloco' style={{backgroundColor: cor, height: altura, width: largura}}> </div>
-                    </div>
+                        {blocos}
+                    </div> 
                 </div>
             </div>
         </>
