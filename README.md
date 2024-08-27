@@ -1,4 +1,4 @@
-# Estudo de caso do aplicativo mobile da PicPay
+# Estudo de caso do aplicativo mobile do PicPay
 Estudo de caso sobre a recente atualização da interface do aplicativo de pagamentos PicPay
 <br>
 
@@ -90,7 +90,8 @@ porque ele estará insatisfeito com o produto, podendo optar por outra ferrament
 # ETAPA 3: PROTOTIPAÇÃO 
 `wireframe de baixa fidelidade`
 
-(imagens)
+<img src="https://github.com/isiscostabb/PicPay/blob/main/Imagens/wireframe.png">
+
 Para o desenvolvimento de um wireframe de baixa fidelidade foi escolhido manter a essência e a identidade visual da marca, utilizando a paleta de cores características do PicPay e mantendo o mesmo layout onde houveram acertos, mas para as telas que foram modificadas, a interface sofreu algumas mudanças de modo que não pudesse prejudicar a experiencia do usuário realizando uma mudança drástica.
 <br>
 <br>
