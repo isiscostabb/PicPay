@@ -37,7 +37,7 @@ function Tela1() {
                         </div>
                     </Conteiner>
 
-                    <Fileira titulo='Pro dia a dia' quantidade={4}/>
+                    <Fileira titulo='Pro dia a dia' quantidade={6}/>
 
                     <Fileira titulo='Sugestões' quantidade={4}/>
 
