@@ -1,15 +1,11 @@
 
-import { FaPlus } from "react-icons/fa";
-import { SiPicpay } from "react-icons/si";
-
-import { FaPiggyBank } from "react-icons/fa6";
-import { PiHandCoinsFill } from "react-icons/pi";
-import { FaArrowTrendUp } from "react-icons/fa6";
-import { MdOutlineSecurity } from "react-icons/md";
+//Icones
+import {
+    MdOutlineSecurity, FaPiggyBank, FaArrowTrendUp, FaPlus, PiHandCoinsFill, SiPicpay
+} from  '../Telas/componentes/Icons';
 
 import Footer from '../Footer + Header/Footer'
 import Header from '../Footer + Header/Header'
-
 import Conteiner from './componentes/Conteiner'
 import FileiraV from "./componentes/FileiraV";
 

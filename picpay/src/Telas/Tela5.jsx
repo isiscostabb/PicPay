@@ -1,38 +1,13 @@
-//Pro dia a dia
-import { MdOutlinePix } from "react-icons/md";
-import { FaBarcode } from "react-icons/fa6";
-import { FaQrcode } from "react-icons/fa";
-import { FaMoneyBillTransfer } from "react-icons/fa6";
-import { MdAttachMoney } from "react-icons/md";
-import { FaPiggyBank } from "react-icons/fa6";
-import { FaBusSimple } from "react-icons/fa6";
-import { MdOutlineSmartphone } from "react-icons/md";
-import { IoPeople } from "react-icons/io5";
-import { BiTransfer } from "react-icons/bi";
 
-//Conta
-import { IoIosDocument } from "react-icons/io";
-import { GiPayMoney } from "react-icons/gi";
-import { MdAddCard } from "react-icons/md";
-import { FaArrowTrendUp } from "react-icons/fa6";
-import { FaPlus } from "react-icons/fa";
-import { MdFamilyRestroom } from "react-icons/md";
-
-//Serviços financeiros
-import { PiHandCoinsFill } from "react-icons/pi";
-import { MdOutlineSecurity } from "react-icons/md";
-import { MdOutlineDomainVerification } from "react-icons/md";
-import { FaCalendar } from "react-icons/fa";
-
-//Mais serviços
-import { FaCarRear } from "react-icons/fa6";
-import { FaEarthAmericas } from "react-icons/fa6";
-import { GiCardPick } from "react-icons/gi";
-import { MdAccountCircle } from "react-icons/md";
-import { BiSolidDonateHeart } from "react-icons/bi";
-
-//Dúvidas e atendimento
-import { BiSupport } from "react-icons/bi";
+//Icones
+import {
+        MdOutlinePix, MdAttachMoney, MdOutlineSecurity, MdOutlineDomainVerification, MdAccountCircle, MdFamilyRestroom, MdAddCard,
+        FaBarcode, FaQrcode, FaMoneyBillTransfer, FaPiggyBank, FaBusSimple, FaCalendar, FaArrowTrendUp, FaPlus, FaEarthAmericas, FaCarRear,
+        IoPeople, IoIosDocument,
+        GiPayMoney, GiCardPick,
+        PiHandCoinsFill,
+        BiTransfer, BiSolidDonateHeart, BiSupport
+} from  '../Telas/componentes/Icons';
 
 import Footer from '../Footer + Header/Footer'
 import Header from '../Footer + Header/Header'
