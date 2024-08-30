@@ -1,0 +1,16 @@
+
+
+.opcao{
+    background-color: var(--cor0);
+    width: 90%;
+    height: 60px;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 0px 25px;
+}

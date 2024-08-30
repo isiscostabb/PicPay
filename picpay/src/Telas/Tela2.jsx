@@ -4,15 +4,16 @@ import { SiPicpay } from "react-icons/si";
 
 import { FaPiggyBank } from "react-icons/fa6";
 import { PiHandCoinsFill } from "react-icons/pi";
-import { ImStatsBars } from "react-icons/im";
+import { FaArrowTrendUp } from "react-icons/fa6";
 import { MdOutlineSecurity } from "react-icons/md";
 
 import Footer from '../Footer + Header/Footer'
 import Header from '../Footer + Header/Header'
 
-import './Tela2.css'
-
 import Conteiner from './componentes/Conteiner'
+import FileiraV from "./componentes/FileiraV";
+
+import './Tela2.css'
 
 function Tela2() {
 
@@ -43,14 +44,10 @@ function Tela2() {
                         </div>
                     </Conteiner>
 
-                    <Conteiner altura='300px'>
-                        <div className='opcoes'>
-                            <div className='opcao'> <h3>Cofrinhos</h3> <FaPiggyBank size={25} color='var(--cor4)'/> </div>
-                            <div className='opcao'> <h3>Empréstimos</h3> <PiHandCoinsFill size={25} color='var(--cor4)'/> </div>
-                            <div className='opcao'> <h3>Investimentos</h3> <ImStatsBars size={25} color='var(--cor4)'/> </div>
-                            <div className='opcao'> <h3>Seguros</h3> <MdOutlineSecurity size={25} color='var(--cor4)'/> </div>
-                        </div>
-                    </Conteiner>
+                    <FileiraV 
+                        nome={["Cofrinhos", "Empréstimos", "Investimentos", "Seguros"]}
+                        icon={[<FaPiggyBank size={25} />, <PiHandCoinsFill size={25} />, <FaArrowTrendUp size={25} />, <MdOutlineSecurity size={25} />
+                        ]} quantidade={4} />
 
                 </main>
                 <Footer/>
