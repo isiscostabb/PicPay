@@ -1,11 +1,11 @@
 
 import './Movimentacao.css';
 
-function Movimentacao({categoria, lugar, valor}) {
+function Movimentacao({categoria, lugar, valor, icon}) {
     return (
         <>
             <div className='mov'>
-                <div className='icone'></div>
+                <div className='icone'>{icon}</div>
                 <div className='dados'>
                     <p className='movimentacaoTxt'>{categoria}</p>
                     <div className='valor'>

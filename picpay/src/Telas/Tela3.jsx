@@ -2,7 +2,7 @@
 
 //Icones
 import {
-    FaLock, GiCardPick, FaCreditCard, FaKey, BiSupport, FaPlus
+    FaLock, GiCardPick, FaCreditCard, FaKey, BiSupport, FaPlus, PiParkFill, GiKnifeFork, IoWifi, BiSolidShoppingBag
 } from  '../Telas/componentes/Icons';
 
 
@@ -59,23 +59,22 @@ function Tela3() {
                             <h2>Movimentação</h2>
 
                             <DataMov data={'10 JAN 2024'}>
-                                <Movimentacao categoria={'LAZER'} lugar={'Academia'} valor={'R$ 100,00'}/>
-                                <Movimentacao categoria={'COMIDA'} lugar={'Mercado Antônio'} valor={'R$ 250,00'}/>
+                                <Movimentacao categoria={'LAZER'} lugar={'Academia'} valor={'R$ 100,00'} icon={<PiParkFill size={25}/>}/>
+                                <Movimentacao categoria={'ALIMENTAÇÃO'} lugar={'Mercado Antônio'} valor={'R$ 250,00'} icon={<GiKnifeFork size={25}/>}/>
                             </DataMov>
                             
                             <DataMov data={'05 JAN 2024'}>
-                                <Movimentacao categoria={'INTERNET'} lugar={'Provedora Interflex'} valor={'R$ 50,00'}/>
-                                <Movimentacao categoria={'COMIDA'} lugar={'Lanchonete Esquina'} valor={'R$16,50'}/>
-                                <Movimentacao categoria={'COMPRA'} lugar={'Loja Maria'} valor={'R$ 1700,00'}/>
+                                <Movimentacao categoria={'INTERNET'} lugar={'Provedora Interflex'} valor={'R$ 50,00'} icon={<IoWifi size={25}/>}/>
+                                <Movimentacao categoria={'ALIMENTAÇÃO'} lugar={'Lanchonete Esquina'} valor={'R$16,50'} icon={<GiKnifeFork size={25}/>}/>
+                                <Movimentacao categoria={'COMPRA'} lugar={'Loja Maria'} valor={'R$ 1700,00'} icon={<BiSolidShoppingBag size={25}/>}/>
 
-                                <br/>
-                                <br/>
+                                <br />
+                                <br />
+
                             </DataMov>
-
                         </div>
                     </Conteiner>
                     
-          
                 </main>
                 <Footer/>
             </div>
