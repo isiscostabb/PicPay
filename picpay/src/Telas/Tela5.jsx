@@ -6,7 +6,7 @@ import {
         IoPeople, IoIosDocument,
         GiPayMoney, GiCardPick,
         PiHandCoinsFill,
-        BiTransfer, BiSolidDonateHeart, BiSupport
+        BiTransfer, BiSolidDonateHeart, BiSupport, MdOutlineSmartphone
 } from  '../Telas/componentes/Icons';
 
 import Footer from '../Footer + Header/Footer'

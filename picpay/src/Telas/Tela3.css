@@ -6,3 +6,83 @@
     width: 90%;
     height: 90%;
 }
+
+.imgCard{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 15%;
+    margin-bottom: 10px;
+}
+
+.Picpay{
+    width: 35%;
+}
+
+.Mastercard{
+    width: 20%;
+}
+
+.blocoCard{
+    background-color: var(--cor4);
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    position: relative;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtCard{
+    color: aliceblue;
+    margin-left: 20px;
+    align-self: flex-start;
+}
+
+.txtCard.h2{
+    font-size: 20px;
+}
+
+.txtCard.h3{
+    font-size: 15px;
+}
+
+.saldoCard{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.barra{
+    position: relative;
+    width: 3px;
+    height: 35px;
+    background-color: var(--cor0);
+    border-radius: 10px;
+}
+
+.blocoTxtCard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.txtCard.p{
+    margin-left: 10px;
+    font-size: 14px
+}
+
+.txtCard.p2{
+    margin-left: 10px;
+    font-size: 12px
+}

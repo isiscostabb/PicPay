@@ -1,11 +1,16 @@
 
+//Icones
+import {
+    MdOutlinePix, FaBarcode, FaPiggyBank, MdOutlineSmartphone, FaBusSimple, IoPeople
+} from  '../Telas/componentes/Icons';
+
 import './Tela1.css'
+
 import Footer from '../Footer + Header/Footer'
 import Header from '../Footer + Header/Header'
-
 import Fileira from './componentes/Fileira'
 import Conteiner from './componentes/Conteiner'
-
+import FileiraSolucoes from './componentes/FileiraSolucoes';
 
 function Tela1() {
 
@@ -15,7 +20,7 @@ function Tela1() {
                 <Header/>
                 <main>
 
-                    <Conteiner altura='220px'>
+                    <Conteiner altura={'220px'}>
                         <div className='saldo'>
                             <div className='texto'>
                                 <h2 className='tela1'>Saldo em conta</h2>
@@ -28,7 +33,7 @@ function Tela1() {
                         </div>
                     </Conteiner>
 
-                    <Conteiner altura='170px'>
+                    <Conteiner altura={'170px'}>
                         <div className='pagamentos'>
                             <h2 className='tela1'>PAGAR COM PIX</h2>
                         </div>
@@ -37,11 +42,12 @@ function Tela1() {
                         </div>
                     </Conteiner>
 
-                    <Fileira titulo='Pro dia a dia' quantidade={6}/>
+                    <Fileira titulo={'Pro dia a dia'} quantidade={6} alturaTotal={'170px'}
+                    nome={["Pix", "Pagar boleto", "Cofrinhos", "Recarga celular", "Transporte", "Pagar pessoas"]}
+                    icon={[<MdOutlinePix size={25} />, <FaBarcode size={25} />, <FaPiggyBank size={25} />, <MdOutlineSmartphone size={25} />, <FaBusSimple size={25} />, <IoPeople size={25} />]}
+                    />
 
-                    <Fileira titulo='Sugestões' quantidade={4}/>
-
-                    <Fileira titulo='Soluções para você' cor='var(--cor3)' altura='180px' largura='270px' alturaTotal='300px' quantidade={2}/>
+                    <FileiraSolucoes titulo={'Soluções para você'} cor={'var(--cor3)'} altura={'200px'} largura={'280px'} alturaTotal={'300px'}/>
 
                     <br/> <br/> <br/>
                 </main>

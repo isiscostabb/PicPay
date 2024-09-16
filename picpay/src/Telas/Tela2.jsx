@@ -16,7 +16,7 @@ function Tela2() {
     return(
         <>
             <div className='branco'>
-                <Header cor='var(--cor3)' margem='-1px' borda='30px 30px 0px 0px' opacidade='50%'/>
+                <Header cor={'var(--cor3)'} margem={'-1px'} borda={'30px 30px 0px 0px'} opacidade={'50%'}/>
                 <main>
 
                     <div className='saldo2'>
@@ -30,7 +30,7 @@ function Tela2() {
                         </button>
                     </div>
 
-                    <Conteiner altura='100px'>
+                    <Conteiner altura={'100px'}>
                         <div className='carteira'>
                             <h2 className='carteiraTxt'>Carteira</h2>
                             <div className='carteiras'>

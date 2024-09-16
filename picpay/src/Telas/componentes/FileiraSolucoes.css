@@ -1,0 +1,35 @@
+
+.bloco{
+    flex-direction: column;
+}
+
+.pSolucoes{
+    align-self: flex-start;
+    margin-left: 20px;
+    color: var(--cor0);
+    font-size: 14px;
+}
+
+.h2Solucoes{
+    align-self: flex-start;
+    margin-left: 20px;
+    color: var(--cor0);
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 85%;
+}
+
+.botaoSolucoes{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: var(--cor0);
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    align-self: flex-start;
+    margin-left: 20px;
+    cursor: pointer;
+}
