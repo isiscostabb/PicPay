@@ -5,7 +5,7 @@ div.box.celular{
     height: 95vh;
     top: 50%;
     border-radius: 30px;
-  }
+}
   
   .celular{
     position: absolute;
@@ -14,4 +14,4 @@ div.box.celular{
     transform: translate(-50%, -50%);
     height: 100%;
     width: 120%;
-  }
+}

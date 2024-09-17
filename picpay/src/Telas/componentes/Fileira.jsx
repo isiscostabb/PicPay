@@ -2,6 +2,8 @@
 import './Fileira.css'
 
 import Conteiner from './Conteiner';
+import Draggable from './Draggable'; 
+
 
 function Fileira({titulo, cor, altura, largura, alturaTotal, direcao, quantidade, nome, icon}) {
  
@@ -20,9 +22,11 @@ const blocos = Array.from({ length: quantidade }, (_, index) => (
             <Conteiner altura={alturaTotal}>
             <h2 className='txt_fileira'>{titulo}</h2>
                 <div className='container tres'> 
-                    <div className='grupo blocos' style={{flexDirection: direcao, width: `${quantidade * 140}px`}}>
-                        {blocos}
-                    </div> 
+                    <Draggable>
+                        <div className='grupo blocos' style={{flexDirection: direcao, width: `${quantidade * 140}px`}}>
+                            {blocos}
+                        </div>
+                    </Draggable>
                 </div>
             </Conteiner>
         </>
