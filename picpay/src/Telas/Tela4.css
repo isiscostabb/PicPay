@@ -1,12 +1,4 @@
 
-:root {
-    --cor0: #efefef;
-    --cor1: #FFFFFF;
-    --cor2: #00CC65;
-    --cor3: #238662;
-    --cor4: #000000;
-}
-  
 .head{
     position: relative;
     display: flex;
@@ -33,7 +25,43 @@
 .pedidos{
     position: relative;
     background-color: var(--cor3);
-    width: 120px;
+    width: 150px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
+}
+
+.h2Tela4{
+    color: var(--cor0);
+    font-size: 18px;
+}
+
+.containerPromo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocoPromo{
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.promo.dois{
+    width: 90%;
 }

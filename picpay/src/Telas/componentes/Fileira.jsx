@@ -4,7 +4,7 @@ import './Fileira.css'
 import Conteiner from './Conteiner';
 
 function Fileira({titulo, cor, altura, largura, alturaTotal, direcao, quantidade, nome, icon}) {
-
+ 
 // Loop para gerar a quantidade de blocos com seus respectivos NOMES e ICONES
 const blocos = Array.from({ length: quantidade }, (_, index) => (
     <div key={index} className='container_bloco'>
@@ -24,8 +24,6 @@ const blocos = Array.from({ length: quantidade }, (_, index) => (
                         {blocos}
                     </div> 
                 </div>
-
-                
             </Conteiner>
         </>
     )}
