@@ -107,3 +107,8 @@ Para o desenvolvimento de um wireframe de baixa fidelidade foi escolhido manter 
 - JavaScript;
 - React;
 - Vite.
+
+
+
+https://github.com/user-attachments/assets/f2d97b2c-70e4-4056-bd30-d75c68e22364
+
