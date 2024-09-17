@@ -22,3 +22,7 @@ footer {
     cursor: pointer;
     border: none;
 }
+
+.circle.active {
+    background-color: var(--cor3); 
+}

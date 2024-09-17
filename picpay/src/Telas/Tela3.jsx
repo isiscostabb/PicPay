@@ -5,7 +5,6 @@ import {
     FaLock, GiCardPick, FaCreditCard, FaKey, BiSupport, FaPlus, PiParkFill, GiKnifeFork, IoWifi, BiSolidShoppingBag
 } from  '../Telas/componentes/Icons';
 
-
 import Footer from '../Footer + Header/Footer'
 import Header from '../Footer + Header/Header'
 

@@ -1,9 +1,9 @@
 
-import React from 'react';
 import {
     MdOutlinePix, FaBarcode, FaPiggyBank, MdOutlineSmartphone, FaBusSimple, IoPeople
 } from '../Telas/componentes/Icons';
 
+import React from 'react';
 import './Tela1.css';
 
 import Footer from '../Footer + Header/Footer';
