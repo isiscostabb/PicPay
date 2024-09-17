@@ -45,7 +45,7 @@
 
 .blocoPromo{
     width: 300px;
-    height: 100px;
+    height: 160px;
     border-radius: 20px;
     margin-bottom: 5px;
     position: relative;
@@ -64,4 +64,65 @@
 
 .promo.dois{
     width: 90%;
+}
+
+
+.containerProdutos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocoProdutos{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor0);
+    margin-right: 20px;
+}
+
+.imgProdutos{
+    position: relative;
+    display: flex;
+    width: 85%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor1);
+    border-radius: 20px;
+}
+
+.h2Produtos{
+    font-size: 20px;
+    width: 90%;
+}
+
+.pProdutos.um{
+    font-size: 12px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.pProdutos.dois{
+    font-size: 12ppx;
+    align-self: flex-start;
+    margin-left: 20px;
+    font-family: 'font2';
+}
+
+.h3Produtos{
+    font-family: 'font2';
+    color: var(--cor3);
+    font-size: 18px;
+    align-self: flex-start;
+    margin-left: 20px;
 }

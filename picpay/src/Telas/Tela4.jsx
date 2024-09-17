@@ -54,7 +54,7 @@ function Tela4() {
                         icon={[<BiSolidCoupon  size={35}/>, <FaCartShopping size={30}/>, <FaCalendar size={30}/>, <FaPlus size={30}/> ]}/>
 
 
-                    <Conteiner altura={'240px'}>
+                    <Conteiner altura={'250px'}>
                         <h2 className='txt_fileira'>Ofertas com cashback</h2>
                         <div className='container tres'> 
                             <div className='grupo blocos'>
@@ -79,6 +79,44 @@ function Tela4() {
                             </div> 
                         </div>
                     </Conteiner>
+
+
+                    
+
+                    <Conteiner altura={'450px'}>
+                        <h2 className='txt_fileira'>Produtos no shop</h2>
+                        <div className='container tres'> 
+                            <div className='grupo blocos'>
+                                <div className='containerProdutos'>
+
+                                    <div className='blocoProdutos'>
+                                        <div className='imgProdutos'>
+                                            <img src="./Midia/Cel1.png" width={'90%'} />
+                                        </div>
+                                        <h2 className='h2Produtos'>Smartphone Motorola Moto G04S 4G</h2>
+                                        <p className='pProdutos um'><del>R$ 2.000,00</del></p>
+                                        <p className='pProdutos dois'>R$ 1.500,00</p>
+                                        <h3 className='h3Produtos'>2% de cashback</h3>
+                                    </div>
+
+                                    
+                                    <div className='blocoProdutos'>
+                                        <div className='imgProdutos'>
+                                            <img src="./Midia/Cel2.jpg" width={'90%'} />
+                                        </div>
+                                        <h2 className='h2Produtos'>Smart TV AOC HD, Dolby Digital... </h2>
+                                        <p className='pProdutos um'><del>R$ 1.044,05</del></p>
+                                        <p className='pProdutos dois'>R$ 1.020,30</p>
+                                        <h3 className='h3Produtos'>2% de cashback</h3>
+                                    </div>
+
+                                </div>
+                            </div> 
+                        </div>
+                    </Conteiner>
+
+
+
 
                     <br/>
                     <br/>
